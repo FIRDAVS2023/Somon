@@ -1,0 +1,380 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body{
+margin: 0;
+font-family: Roboto;
+}
+
+ul{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+margin: 0;
+padding: 0;
+}
+
+input, select, textarea{
+outline: none;
+}
+
+p{
+margin: 0;
+padding: 0;
+}
+
+.border{
+
+border: 1px solid;
+
+}
+
+.wrap{
+width: 930px;
+    margin: auto;
+    min-width: 930px;
+
+}
+
+
+header{
+
+	background: #f0f0f0;
+    height: 70px;
+ 
+    z-index: 102;
+}
+
+header .wrap{
+
+height: 100%;
+
+}
+
+.header-logo{
+	float: left;
+	padding: 11px 0px;
+}
+
+.header-menu {
+ float: right;
+ padding: 13px 0;
+}
+
+.header-menu-item{
+
+	float: left;
+
+}
+
+.header-menu-item{
+
+	float: left;
+}
+
+.user-menu{
+
+	margin-top: 11px;
+}
+
+.header-menu-item__name{
+
+	max-width: 200px;
+    margin-right: 5px;
+ 
+    color: #0093d3;
+  
+    text-align: right;
+}
+
+.header-menu-item__phone{
+display: inline-block;
+    color: #8391a2;
+ }
+
+ .favorites img{
+
+ 	    width: 30px;
+ 
+}
+
+.favorites{
+    margin-left: 15px;
+    margin-top: 6px;
+
+}
+
+._add{
+
+padding: 12px 0;
+}
+
+._add a{
+
+	background: #ea4300;
+    color: #fff;
+   
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 5px 13px;
+}
+
+._somon .search-categories {
+    background: #0093d3;
+  
+    padding: 18px 0;
+}
+
+.search_input{
+
+    width: 322px;
+    border: 3px solid #ffcb00;
+    height: 38px;
+    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 30%);
+    line-height: 18px;
+    font-size: 18px;
+    border-radius: 3px;
+    margin:0;
+
+}
+
+.search select{
+margin:0;
+margin-left: -7px;
+ border-right: 3px solid #ffcb00;
+ border-top: 3px solid #ffcb00;
+ border-bottom: 3px solid #ffcb00;
+ border-left: 3px solid #e3e3e3;
+    height: 38px;
+    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 30%);
+     font-size: 18px;
+    border-radius: 3px;
+
+}
+
+.search-submit{
+
+	background: #ffcb00 url(../images/search-submit-somon.png) no-repeat 10px 8px;
+	width: 162px;
+  
+    font-size: 20px;
+
+    line-height: 20px;
+ 
+        border: none;
+    border-radius: 3px;
+    padding: 10px 0 10px 37px;
+    text-align: left;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.search-submit:hover{
+
+background-color: #ea5e00;
+cursor: pointer;
+}
+
+.categories{
+padding: 11px 0;
+}
+
+.category-item{
+width: 219px;
+display: inline-block;
+padding: 10px 10px 0 0;
+height: 50px;
+}
+
+.icon-categories-container{
+width: 40px;
+display: inline-block;
+padding: 4px 10px 4px 4px;
+vertical-align: middle;
+}
+
+.icon-categories-container img{
+width: 30px;
+}
+
+.category-item p{
+display: inline-block;
+vertical-align: middle;
+font-size: 18px;
+color: #0093d3;
+font-weight: 700;
+width: 155px;
+line-height: 18px;
+}
+
+.safety{
+background: #ffcb00 url(../images/safety.svg) no-repeat left 134px bottom/157px;
+    height: 69px;
+ 
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+ 
+}
+
+.safety__wrapper{
+text-align: left;
+margin-left: 323px;
+padding: 10px 0;
+}
+
+.safety__header{
+    font-size: 24px;
+    line-height: 24px;
+	font-weight: 700;
+}
+
+.safety__text{
+font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+
+.ads_items_title{
+font-size: 24px;
+    margin-bottom: 14px;
+	padding-top: 20px;
+}
+
+.iteam-commodities{
+margin-right: 4px;
+display: inline-block;
+margin-bottom: 15px;
+width: 225px;
+}
+
+.iteam-commodities .name{
+font-size: 15px;
+line-height: 17px;
+color: #0093d3;
+font-weight: 700;
+}
+
+.commodities_img{
+margin-bottom: 4px;
+position: relative;
+    overflow: hidden;
+	width: 225px;
+	height: 173px;
+}
+
+.commodities_img img{
+width: 225px;
+transition: .25s; /*вакт барои калон шудан мондосим*/
+}
+
+.commodities_img img:hover{
+transition: .25s;
+transform: scale(1.1) /*эффекти калон шудан применять кардосим*/
+}
+
+.commodities-block__price{
+font-size: 15px;
+color: #000;
+}
+
+.photo-commodities{
+position: absolute;
+    top: 0;
+right: 0;
+    color: #fff;
+    width: 13px;
+    height: 16px;
+    padding-left: 20px;
+    background: url(../images/photoapparat.svg) no-repeat 3px center;
+    background-size: 12px;
+    background-color: #747474;
+    font-size: 12px;
+
+    padding-right: 2px;
+}
+
+.all_ads{
+padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.all_ads a{
+font-size: 24px;
+    color: #0093d3;
+	font-weight: 700;
+}
+
+.stores-index__header{
+display: inline-block;
+width: 200px;
+padding-right: 30px;
+vertical-align: middle;
+}
+
+.stores-index__list{
+display: inline-block;
+width: 690px;
+}
+
+.stores-index__list li{
+    display: inline-block;
+   width: 224px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.stores-index__item-logo{
+display: inline-block;
+    width: 85px;
+    vertical-align: middle;
+    padding: 12px 0;
+}
+
+.stores-index__item-logo img{
+width: 85px;
+
+}
+
+.stores-index__item-titl{
+display: inline-block;
+    width: 114px;
+    vertical-align: middle;
+}
+
+.stores-index__header-add {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+    padding-right: 35px;
+    background-color: #f8c500;
+    border-radius: 3px;
+    color: #000 !important;
+    text-decoration: none;
+    line-height: 34px;
+    height: 32px;
+    vertical-align: top;
+    margin-top: 4px;
+    position: relative;
+}
+
+.stores-index{
+padding: 20px 0;
+border-bottom: 2px solid #ccc;
+}
+
+.stores-index__item-titl a{
+display: block;
+}
+
